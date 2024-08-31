@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.project-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

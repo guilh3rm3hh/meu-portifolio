@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio de Design e Programação</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <nav>
+            <a href="#sobre" class="text-white me-3">Sobre Mim</a>
+            <a href="#projetos" class="text-white me-3">Projetos</a>
+            <a href="#contato" class="text-white">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Guilherme e sou um desenvolvedor web e designer apaixonado por criar experiências digitais incríveis. Combinando a arte do design com as melhores práticas de programação, busco sempre entregar soluções inovadoras.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <h5>Projeto 1</h5>
+                        <p>Um site responsivo que utiliza HTML, CSS e Bootstrap para criar uma interface moderna e interativa.</p>
+                        <a href="projeto1.html" class="btn btn-primary">Ver Projeto</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <h5>Projeto 2</h5>
+                        <p>Aplicativo web desenvolvido em JavaScript que permite aos usuários gerenciar suas tarefas de forma eficiente.</p>
+                        <a href="projeto2.html" class="btn btn-primary">Ver Projeto</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <h5>Projeto 3</h5>
+                        <p>Uma landing page criada para promover um evento, com foco em conversão e design atraente.</p>
+                        <a href="projeto3.html" class="btn btn-primary">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato comigo através do meu e-mail: [seu-email@example.com].</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
